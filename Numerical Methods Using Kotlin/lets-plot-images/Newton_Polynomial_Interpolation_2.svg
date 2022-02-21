@@ -1,0 +1,199 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="plt-container" width="500.0" height="333.3333333333333">
+  <style type="text/css">
+  .plt-container {
+	font-family: "Lucida Grande", sans-serif;
+	cursor: crosshair;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.plt-backdrop {
+   fill: white;
+}
+.plt-transparent .plt-backdrop {
+   visibility: hidden;
+}
+text {
+	font-size: 12px;
+	fill: #3d3d3d;
+	
+	text-rendering: optimizeLegibility;
+}
+.plt-data-tooltip text {
+	font-size: 12px;
+}
+.plt-axis-tooltip text {
+	font-size: 10px;
+}
+.plt-axis line {
+	shape-rendering: crispedges;
+}
+.plt-plot-title {
+
+  font-size: 16.0px;
+  font-weight: bold;
+}
+.plt-axis .tick text {
+
+  font-size: 10.0px;
+}
+.plt-axis.small-tick-font .tick text {
+
+  font-size: 8.0px;
+}
+.plt-axis-title text {
+
+  font-size: 12.0px;
+}
+.plt_legend .legend-title text {
+
+  font-size: 12.0px;
+  font-weight: bold;
+}
+.plt_legend text {
+
+  font-size: 10.0px;
+}
+
+  </style>
+  <rect class="plt-backdrop" width="100%" height="100%">
+  </rect>
+  <g class="plt-plot">
+    <g transform="translate(20.0 10.0 ) ">
+      <g transform="translate(29.1 284.3333333333333 ) " class="plt-axis">
+        <g class="tick" transform="translate(20.040495867768612 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) ">
+            <text style="fill:#000000;" text-anchor="middle" dy="0.7em">
+            1.0
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(120.24297520661156 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) ">
+            <text style="fill:#000000;" text-anchor="middle" dy="0.7em">
+            1.5
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(220.44545454545454 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) ">
+            <text style="fill:#000000;" text-anchor="middle" dy="0.7em">
+            2.0
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(320.6479338842975 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) ">
+            <text style="fill:#000000;" text-anchor="middle" dy="0.7em">
+            2.5
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(420.85041322314044 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) ">
+            <text style="fill:#000000;" text-anchor="middle" dy="0.7em">
+            3.0
+            </text>
+          </g>
+        </g>
+        <line x1="0.0" y1="0.0" x2="440.8909090909094" y2="0.0" stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0">
+        </line>
+      </g>
+      <g transform="translate(29.1 0.0 ) " class="plt-axis">
+        <g class="tick" transform="translate(0.0 271.4090909090909 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            0.0
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 217.23316687973198 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            0.1
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 163.05724285037306 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            0.2
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 108.88131882101413 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            0.3
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 54.70539479165524 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            0.4
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 0.5294707622963415 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            0.5
+            </text>
+          </g>
+        </g>
+        <line x1="0.0" y1="0.0" x2="0.0" y2="284.3333333333333" stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0">
+        </line>
+      </g>
+      <g transform="translate(29.1 0.0 ) " clip-path="url(#n7eC58)" clip-bounds-jfx="[rect (0.0, 0.0), (440.8909090909094, 284.3333333333333)]">
+        <defs>
+          <clipPath id="n7eC58">
+            <rect x="0.0" y="0.0" width="440.8909090909094" height="284.3333333333333">
+            </rect>
+          </clipPath>
+        </defs>
+        <g>
+          <path d="M20.040495867768612 271.4090909090909 L20.040495867768612 271.4090909090909 L24.08908089156023 267.4445366650833 L28.137665915351846 263.507606832882 L32.18625093914346 259.5983014124869 L36.23483596293508 255.71662040389796 L40.283420986726696 251.86256380711524 L44.33200601051831 248.03613162213873 L48.38059103430993 244.2373238489684 L52.42917605810155 240.4661404876043 L56.47776108189316 236.7225815380464 L60.52634610568478 233.00664700029472 L64.5749311294764 229.3183368743492 L68.62351615326801 225.65765116020992 L72.67210117705963 222.02458985787683 L76.72068620085122 218.41915296735 L80.76927122464286 214.8413404886293 L84.81785624843445 211.29115242171483 L88.8664412722261 207.76858876660657 L92.91502629601769 204.2736495233045 L96.96361131980933 200.80633469180867 L101.01219634360092 197.366644272119 L105.06078136739256 193.95457826423555 L109.10936639118415 190.5701366681583 L113.1579514149758 187.2133194838873 L117.20653643876739 183.88412671142243 L121.25512146255903 180.5825583507638 L125.30370648635062 177.30861440191137 L129.35229151014227 174.06229486486518 L133.40087653393385 170.84359973962518 L137.4494615577255 167.65252902619136 L141.4980465815171 164.48908272456373 L145.54663160530873 161.35326083474234 L149.59521662910032 158.24506335672714 L153.64380165289197 155.1644902905182 L157.69238667668355 152.11154163611536 L161.7409717004752 149.0862173935188 L165.7895567242668 146.0885175627284 L169.83814174805843 143.11844214374423 L173.88672677185002 140.1759911365663 L177.93531179564167 137.26116454119452 L181.98389681943326 134.37396235762895 L186.0324818432249 131.51438458586958 L190.0810668670165 128.68243122591642 L194.12965189080813 125.87810227776953 L198.17823691459972 123.10139774142877 L202.22682193839137 120.35231761689423 L206.27540696218296 117.63086190416593 L210.3239919859746 114.93703060324376 L214.3725770097662 112.27082371412783 L218.42116203355783 109.63224123681815 L222.46974705734942 107.02128317131462 L226.51833208114107 104.43794951761728 L230.56691710493277 101.88224027572613 L234.61550212872442 99.3541554456412 L238.66408715251606 96.85369502736248 L242.71267217630776 94.38085902088997 L246.7612572000994 91.93564742622368 L250.80984222389105 89.51806024336355 L254.8584272476827 87.12809747230969 L258.9070122714744 84.76575911306199 L262.95559729526605 82.43104516562047 L267.0041823190577 80.12395562998523 L271.0527673428494 77.84449050615615 L275.10135236664104 75.59264979413322 L279.1499373904327 73.36843349391657 L283.1985224142243 71.1718416055061 L287.24710743801603 69.00287412890188 L291.2956924618077 66.86153106410379 L295.3442774855993 64.74781241111194 L299.39286250939097 62.66171816992633 L303.44144753318267 60.603248340546884 L307.4900325569743 58.57240292297365 L311.53861758076596 56.569181917206635 L315.58720260455766 54.593585323245804 L319.6357876283493 52.64561314109119 L323.68437265214095 50.72526537074279 L327.7329576759326 48.83254201220055 L331.78154269972424 46.96744306546455 L335.83012772351594 45.12996853053474 L339.87871274730765 43.3201184074112 L343.92729777109923 41.53789269609382 L347.97588279489094 39.7832913965826 L352.02446781868264 38.05631450887762 L356.0730528424742 36.35696203297883 L360.1216378662659 34.68523396888628 L364.1702228900575 33.041130316599975 L368.2188079138492 31.424651076119773 L372.2673929376409 29.835796247445842 L376.3159779614325 28.27456583057807 L380.3645629852242 26.74095982551654 L384.4131480090159 25.2349782322612 L388.4617330328075 23.7566210508121 L392.5103180565992 22.30588828116916 L396.5589030803909 20.882779923332464 L400.6074881041825 19.487295977301926 L404.6560731279742 18.119436443077632 L408.7046581517658 16.779201320659553 L412.7532431755575 15.466590610047604 L416.8018281993492 14.181604311241983 L420.8504132231408 12.924242424242436 " fill="none" stroke-width="1.0" stroke="rgb(17,142,216)" stroke-opacity="1.0">
+          </path>
+        </g>
+      </g>
+    </g>
+    <g class="plt-axis">
+      <g transform="translate(4.0 152.16666666666666 ) rotate(-90.0 ) " class="plt-axis-title">
+        <text text-anchor="middle" dy="0.7em">
+        y
+        </text>
+      </g>
+    </g>
+    <g class="plt-axis">
+      <g transform="translate(269.54545454545473 329.3333333333333 ) " class="plt-axis-title">
+        <text text-anchor="middle">
+        x
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
