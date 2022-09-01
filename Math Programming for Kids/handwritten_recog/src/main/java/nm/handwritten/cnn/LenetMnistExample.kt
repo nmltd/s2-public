@@ -31,7 +31,7 @@ object LenetMnistExample {
     @Throws(Exception::class)
     @JvmStatic
     fun main(args: Array<String>) {
-        val nChannels = 1 // Number of input channels
+        val nChannels = 1 // No. input channels
         val outputNum = 10 // The number of possible outcomes
         val batchSize = 64 // Test batch size
         val nEpochs = 100 // Number of training epochs
@@ -106,18 +106,7 @@ object LenetMnistExample {
             .setInputType(InputType.convolutionalFlat(28, 28, 1)) //See note below
             .backprop(true).pretrain(false).build()
 
-        /*
-        Regarding the .setInputType(InputType.convolutionalFlat(28,28,1)) line: This does a few things.
-        (a) It adds preprocessors, which handle things like the transition between the convolutional/subsampling layers
-            and the dense layer
-        (b) Does some additional configuration validation
-        (c) Where necessary, sets the nIn (number of input neurons, or input depth in the case of CNNs) values for each
-            layer based on the size of the previous layer (but it won't override values manually set by the user)
-        InputTypes can be used with other layer types too (RNNs, MLPs etc) not just CNNs.
-        For normal images (when using ImageRecordReader) use InputType.convolutional(height,width,depth).
-        MNIST record reader is a special case, that outputs 28x28 pixel grayscale (nChannels=1) images, in a "flattened"
-        row vector format (i.e., 1x784 vectors), hence the "convolutionalFlat" input type used here.
-        */
+
         val model = MultiLayerNetwork(conf)
         model.init()
         log.info("Train model....")
@@ -135,7 +124,7 @@ object LenetMnistExample {
                 val locationToSave =
                     File(ouput) //Where to save the network. Note: the file is in .zip format - can be opened externally
                 val saveUpdater =
-                    true //Updater: i.e., the state for Momentum, RMSProp, Adagrad etc. Save this if you want to train your network more in the future
+                    true //Updater: i.e., the state for Adagrad.Adagrad: Adaptive Gradient Algorithm (Adagrad) is an algorithm for gradient-based optimization
                 ModelSerializer.writeModel(model, locationToSave, saveUpdater)
                 log.info("found ")
                 break
@@ -146,3 +135,10 @@ object LenetMnistExample {
         log.info("****************Example finished********************")
     }
 }
+ /*
+              The first layer is the input layer — this is generally not considered a layer of the network as nothing is learnt in this layer. The input layer is built to take in 32x32, and these are the dimensions of images that are passed into the next layer. Those who are familiar with the MNIST dataset will be aware that the MNIST dataset images have the dimensions 28x28. To get the MNIST images dimension to the meet the requirements of the input layer, the 28x28 images are padded.
+
+The grayscale images used in the research paper had their pixel values normalized from 0 to 255, to values between -0.1 and 1.175. The reason for normalization is to ensure that the batch of images have a mean of 0 and a standard deviation of 1, the benefits of this is seen in the reduction in the amount of training time. In the image classification with LeNet-5 example below, we’ll be normalizing the pixel values of the images to take on values between 0 to 1.
+
+     
+                */
